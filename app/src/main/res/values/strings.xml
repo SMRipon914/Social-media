@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Social Media</string>
+
+
+    <string-array name="name">
+        <item>GOOGLE</item>
+        <item>BING SEARCH</item>
+        <item>YAHOO</item>
+        <item>BOX</item>
+        <item>GOOGLE DRIVE</item>
+        <item>DROPBOX</item>
+        <item>GMAIL</item>
+        <item>OUTLOOK</item>
+        <item>YAHOO MAIL</item>
+        <item>FACEBOOK</item>
+        <item>TWITTER</item>
+        <item>GOOGLE PLUS</item>
+        <item>YOUTUBE</item>
+        <item>LINKEDIN</item>
+        <item>INSTAGRAM</item>
+        <item>SNAPCHAT</item>
+        <item>QUORA</item>
+        <item>REDDIT</item>
+        <item>VINE</item>
+        <item>CLASSMATES</item>
+        <item>STUMBLEUPON</item>
+        <item>BADOO</item>
+        <item>BEBO</item>
+        <item>TUMBLR</item>
+        <item>KOHTAKTE</item>
+        <item>HI5</item>
+        <item>BLACK PLANET</item>
+        <item>DOUBAN</item>
+        <item>MYSPACE</item>
+        <item>FLIXSTER</item>
+        <item>HABBO</item>
+        <item>PINTEREST</item>
+        <item>TWOO</item>
+        <item>TAGGED</item>
+        <item>LAST.FM</item>
+        <item>QZONE</item>
+        <item>MEETUP</item>
+        <item>MICI</item>
+        <item>MYLIFE</item>
+        <item>NETLOG</item>
+        <item>XANGA</item>
+        <item>RENRNE</item>
+        <item>CYWORLD</item>
+        <item>DEVIANTART</item>
+        <item>SKYROCK</item>
+        <item>SKYPE</item>
+        <item>AMAZON</item>
+        <item>EBAY</item>
+        <item>REVERBNATION</item>
+        <item>SOUNDCLOUD</item>
+        <item>MEET ME</item>
+        <item>CHANEL</item>
+        <item>MY HERITAGE</item>
+        <item>ZORPIA</item>
+        <item>AOL</item>
+        <item>BITLY</item>
+        <item>BUZZFEED NEWS</item>
+        <item>DAILY MOTION</item>
+        <item>DIGG</item>
+        <item>EVERNOTE</item>
+        <item>FANDANGO</item>
+        <item>LIFE HACKER</item>
+        <item>MEDIUM</item>
+        <item>MOCOSPACE</item>
+        <item>NEXT DOOR</item>
+        <item>9GAG</item>
+        <item>SLACK</item>
+        <item>TOPFACE</item>
+        <item>TUENTI</item>
+        <item>VIMEO</item>
+        <item>WAYN</item>
+        <item>YANDEX MAIL</item>
+        <item>KRISHNA SONG</item>
+        <item>ZOOSK</item>
+        <item>KRISHNA SONG</item>
+
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6D6B6B"
+    android:orientation="vertical"
+    tools:context=".Social_Media_Connection">
+
+    <LinearLayout
+        android:id="@+id/customListId_btn"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="40sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/custom_icon"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_marginLeft="30sp"
+            android:layout_width="wrap_content"
+            android:text="Custom List Selection"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="4"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="40sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pass_icon"/>
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_marginLeft="30sp"
+            android:layout_width="wrap_content"
+            android:textColor="#5CC760"
+            android:text="Change Password"
+            android:layout_height="wrap_content" />
+
+        <ToggleButton
+            android:id="@+id/toggole_btn"
+            android:textOn="No"
+            android:textOff="Off"
+            android:layout_marginLeft="30sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shareOptionId_btn"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="40sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/share_icon"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_marginLeft="30sp"
+            android:layout_width="wrap_content"
+            android:text="Share App"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rateId_btn"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="40sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/rate_icon"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_marginLeft="30sp"
+            android:layout_width="wrap_content"
+            android:text="Rate and Review"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/feedbackId_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/feedback_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30sp"
+            android:text="Give Feedback"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/facebookId_btn"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="40sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/facebook_icon"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_marginLeft="30sp"
+            android:layout_width="wrap_content"
+            android:text="Like us on Facebook"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/twitterId_btn"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="40sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/twitter_icon"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_marginLeft="30sp"
+            android:layout_width="wrap_content"
+            android:text="Like us on Twitter"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
